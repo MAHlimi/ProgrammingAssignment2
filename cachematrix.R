@@ -1,8 +1,9 @@
+# ----------------------------------------------------------------------------- #
 # Goal        : Cache the inverse of a "matrix".                                #
 # Description : With a "standard" R matrix, every time we need its inverse,     #
 #               R have to recalculate it, which can be very expensive in term   #
 #               of resources/time.                                              #
-#               R, through its scoping rules, permit us to create a "special"   #
+#               R, through its scoping rules, allows us to create a "special"   #
 #               matrix that caches its inverse, so that, if we already have the #
 #               inverse calculated, no need to go through the computation, we   #
 #               grab the inverse from the cache directly.                       #
